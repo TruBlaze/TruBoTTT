@@ -59,10 +59,16 @@ exports.commands = {
 	 * to perform arbitrary actions that can't be done through any other commands
 	 * or to help with upkeep of the bot.
 	 */
+	join: 'joinroom',
 	joinroom: function(arg, by, room) {
 		if (room.charAt(0) !== ',') return false;
 		send('|/join ' + arg);
 	},
+	exit: 'leaveroom',	
+	leaveroom: function(arg, by, room) {
+		if (room.charAt(0) !== ',') return false;
+		send('|/part');
+	},	
 	reload: function(arg, by, room) {
 		if (!Bot.isDev(by)) return false;
 		try {
