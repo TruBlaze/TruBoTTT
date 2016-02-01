@@ -4,7 +4,7 @@
     |  |     |      /     |  |  |  |    |   _  <  |  |  |  |     |  |    
     |  |     |  |\  \----.|  `--'  |    |  |_)  | |  `--'  |     |  |    
     |__|     | _| `._____| \______/     |______/   \______/      |__|    
-===========================================================================
+
 
 A chat bot created for the [Origin Pokémon Showdown server][1]. This bot has a number of commands, some helpful and some less so, as well as the capability to mod. It only reacts to basic offences such as flooding/caps/stretching.
 
