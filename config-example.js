@@ -1,5 +1,5 @@
 //place the URL of the showdown server you are aiming to connect to
-exports.url = 'play.pokemonshowdown.com';
+exports.url = 'origin.psim.us';
 
 // The nick and password to log in with
 var nick = exports.nick = ''
@@ -13,7 +13,7 @@ exports.privaterooms = [];
 // Showdown itself.
 // Using only alphanumeric characters and spaces is not allowed.
 // Add more command characters 
-var comChar = exports.commandcharacter = ['+', '.'];
+var comChar = exports.commandcharacter = ['-', '#'];
 
 // The default rank is the minimum rank that can use a command in a room when
 // no rank is specified in settings.json
@@ -44,7 +44,7 @@ exports.excepts = [];
 
 // Add a link to the help for the bot here. When there is a link here, .help and .guide
 // will link to it.
-exports.botguide = 'http://pastebin.com/zT0eFG8a';
+exports.botguide = 'http://pastebin.com/SbFTmuyR';
 
 // This allows the bot to act as an automated moderator. If enabled, the bot will
 // mute users who send 6 lines or more in 6 or fewer seconds for 7 minutes. NOTE: THIS IS
@@ -58,10 +58,11 @@ exports.allowmute = true;
 // rulebreakers. Spamming has a points value of 2, all caps has a points value of 1, etc.
 exports.punishvals = {
 	1: 'warn',
-	2: 'mute',
-	3: 'mute',
-	4: 'hourmute',
-	5: 'roomban'
+	2: 'k',
+	3: 'm',
+	4: 'hm',
+	5: 'dm'
+	6: 'rb'
 };
 
 // This key is used to deliver requests from Google Spreadsheets. Used by the wifi room.
