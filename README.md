@@ -1,9 +1,14 @@
-Pokemon-Showdown-Bot
-====================
+.___________..______       __    __     .______     ______   .___________.
+|           ||   _  \     |  |  |  |    |   _  \   /  __  \  |           |
+`---|  |----`|  |_)  |    |  |  |  |    |  |_)  | |  |  |  | `---|  |----`
+    |  |     |      /     |  |  |  |    |   _  <  |  |  |  |     |  |    
+    |  |     |  |\  \----.|  `--'  |    |  |_)  | |  `--'  |     |  |    
+    |__|     | _| `._____| \______/     |______/   \______/      |__|    
+===========================================================================
 
-A chat bot for [Pokémon Showdown][1]. This bot has a number of commands, some helpful and some less so, as well as the capability to mod. It only reacts to basic offences such as flooding/caps/stretching.
+A chat bot created for the [Origin Pokémon Showdown server][1]. This bot has a number of commands, some helpful and some less so, as well as the capability to mod. It only reacts to basic offences such as flooding/caps/stretching.
 
-  [1]: http://www.pokemonshowdown.com/
+  [1]: http://origin.psim.us/
   
 Guide
 -----
@@ -65,9 +70,10 @@ Everyone is more than welcome to contribute to the bot.
 However, please refrain from adding more example commands.
 
 Owner:
- - sparkychild
+ - TruBlaze
 
 Credits:
+ - sparkychild
  - Morfent (Development)
  - TalkTakesTime (Development)
  - Quinella (Development)
