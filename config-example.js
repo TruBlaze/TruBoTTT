@@ -2,7 +2,7 @@
 exports.url = 'origin.psim.us';
 
 // The nick and password to log in with
-var nick = exports.nick = ''
+var nick = exports.nick = '';
 exports.pass = '';
 
 // A list of private rooms that the bot will not leak through the seen command
@@ -61,7 +61,7 @@ exports.punishvals = {
 	2: 'k',
 	3: 'm',
 	4: 'hm',
-	5: 'dm'
+	5: 'dm',
 	6: 'rb'
 };
 
