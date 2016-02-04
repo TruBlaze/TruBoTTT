@@ -5,6 +5,13 @@ A chat bot created for the [Origin Pokémon Showdown server][1]. This bot has a 
 
   [1]: http://origin.psim.us/
   
+NOTE
+----
+
+THIS BOT IS A DIRECT FORK OF sparkychild's BOT!! IF YOU WANT THE ORIGINAL GO [HERE][7]!
+
+[7]: https://github.com/sparkychild/ChuChuBoTTT
+
 Guide
 -----
 
