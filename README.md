@@ -68,7 +68,7 @@ Owner:
  - TruBlaze
 
 Credits:
- - sparkychild
+ - sparkychild (Original Creator)
  - Morfent (Development)
  - TalkTakesTime (Development)
  - Quinella (Development)
