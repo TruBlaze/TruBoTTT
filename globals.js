@@ -58,7 +58,7 @@ global.game = function(game, room) {
 	console.log('game'.yellow + '    ['.blue + room.blue + '] '.blue + 'A game of ' + game.trim() + ' started');
 }
 
-global.ascii = ' \~\!\@\#\$\%\^\&\*\(\)\_\+\`1234567890\-\=qwertyuiop\[\]\\QWERTYUIOP\{\}\|\'\;lkjhgfdsaASDFGHJKL\:\"zxcvbnm\,\.\/ZXCVBNM\<\>\?\ο\'
+global.ascii = ' \~\!\@\#\$\%\^\&\*\(\)\_\+\`1234567890\-\=qwertyuiop\[\]\\QWERTYUIOP\{\}\|\'\;lkjhgfdsaASDFGHJKL\:\"zxcvbnm\,\.\/ZXCVBNM\<\>\?'
 
 global.crazyeight = {
 	playerData: {},
