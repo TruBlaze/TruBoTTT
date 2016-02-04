@@ -67,7 +67,7 @@ exports.commands = {
 	exit: 'leaveroom',	
 	leaveroom: function(arg, by, room) {
 		if (room.charAt(0) !== ',') return false;
-		send('|/part');
+		send(roomid + "|/leave" + message);
 	},	
 	reload: function(arg, by, room) {
 		if (!Bot.isDev(by)) return false;
